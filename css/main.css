@@ -1,0 +1,167 @@
+/* CSS STRUCTURE TEMPLATE */
+.bg-img{
+    background-image: url("bkg_1 1.png");
+    min-height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* Position the navbar container inside the image */
+.topContainer {
+    position: absolute;
+    padding-top: 20px;
+    width: 100%;
+  }
+  /* The navbar */
+  .topnav {
+    background-color: #000000;
+    opacity: 69%;
+    height: 68px;
+    top: 24px
+  }  
+  /* Navbar links */
+  .topnav a {
+    color: #FFFFFF; 
+    padding: 14px 16px;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 16px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .services{
+    min-height: 711px;
+    background-color: #383838;
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 45px;
+    font: roboto;
+  }
+  .products{
+    min-height: 500px;
+    background-color: #E5E5E5;
+    padding: 20px;
+  }
+  .about{
+    min-height: 853px;
+    background-color: #FF7630;
+    text-align: center;
+    color:#292929;
+    font-size: 45px;
+    font: roboto;
+  }
+  .separator img{
+    color: #292929;
+  }
+  .contact{
+    min-height: 853px;
+    background-color: #E5E5E5; 
+  }
+  .trust{
+    max-height: 254px;
+    background-color: #292929;
+    color: #FF7630;
+    text-align: center;
+    font-size: 65px;
+    font: roboto;
+    padding-right: 20%;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-weight: 500;
+  }
+  .col-8{
+    padding-top: 1.5%;
+  }
+  .address{
+    min-height: 300px;
+    background-color: #E5E5E5;
+  }
+  body{
+    margin: 0px;
+  }
+.centerElements{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 700px;
+}
+.first-txt{
+    font-size: 60px;
+    font: roboto;
+}
+.second-txt{
+    font-size: 100px;
+    font: roboto;
+}
+.button{
+    height: 70px;
+    width: 70px;
+}
+.textboxCSS{
+    width: 100%;
+}
+.textboxText{
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: 700;
+}
+.contactText{
+  padding-top: 135px;
+}
+.contactText1{
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #292929;
+}
+.contactText2{
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 53px;
+  color: #FF7630;
+}
+.boxImages{
+  background-color: #FFFFFF;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 2px 2px 2px #5e5955;
+}
+.pictureWithText1{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.pictureWithText2{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.navbarTags{
+  display: inline-block;
+  right: 100px;
+  position: absolute;
+  top: 40px;
+}
+.imgNavbar{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.textAbout{
+  padding-top: 50px;
+  color: #FFFFFF;
+  font-weight: 700;
+  size: 45px;
+}
