@@ -1,167 +1,422 @@
 /* CSS STRUCTURE TEMPLATE */
-.bg-img{
-    background-image: url("bkg_1 1.png");
-    min-height: 1200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+@media only screen and (max-width: 500px) {
+    .about{
+        display: none;
+    }
+
+    .about-1{
+        background-color: #FF7630;
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        font: roboto;
+    }
+    .boxImages-1 {
+        background-color: #FFFFFF;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        box-shadow: 2px 2px 2px 2px #5e5955;
+        
+    }
+    .bg-img1 {
+        background-image: url("bkg_iphone.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 550px;
+    }
+
+    .bg-img {
+        display: none;
+    }
+
+    .centerElements-1 {
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 250px;
+    }
+    .contact{
+        display: none;
+    }
+    .contact-1-1{
+        margin-bottom: 100px;
+    }
+    
+    .first-txt-1 {
+        font-size: 30px;
+        font: roboto;
+        font-weight: 550;
+    }
+
+    .second-txt-1 {
+        font-size: 50px;
+        font: roboto;
+        font-weight: 650;
+    }
+
+    .services {
+        display: none;
+    }
+
+    .services-1 {
+        min-height: 800px;
+        background-color: #383838;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 45px;
+        font: roboto;
+    }
+
+    .third-txt-1 {
+        font-size: 15px;
+        padding-top: 60px;
+    }
+
+    .fourth-txt-1 {
+        font-size: 25px;
+    }
+
+    .button-1 {
+        height: 60px;
+        width: 60px;
+        margin-top: 22px;
+    }
+
+    .topContainer-1 {
+        position: absolute;
+        /* padding-top: 20px; */
+        width: 100%;
+        max-height: 500px;
+    }
+
+    .imgNavbar {
+        width: 200px;
+        height: 90px;
+    }
+
+    .topnav-1 {
+        background-color: #000000;
+        opacity: 69%;
+        height: 75px;
+        /* width:100% */
+        /* top: 0; */
+        /* position: fixed; */
+       
+    }
+    .products{
+        display: none;
+    }
+    .button-img{
+        padding-top: 50px;
+        padding-left: 10px;;
+        width: 350px;
+        background-position: center;
+        position: relative;
+    }
+    .txt-fleet{
+        margin-bottom: 0;
+        padding-top: 50px;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+    }
+    .txt-heart{
+        text-align: center;
+        font-weight: 700;
+        padding-top: 5px;
+        color: white;
+    }
+
+    .pictureWithText1-1 {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 2px;
+    }
+
+    .pictureWithText2-1 {
+        font-family: Roboto;
+        font-size: 16x;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .contactText-1 {
+        padding-top: 50px;
+    }
+
+    .contactText1-1 {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 800;
+        color: #292929;
+        margin: 5px;
+    }
+
+    .contactText2-1 {
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 1000;
+        color: #FF7630;
+    }
+    .trust{
+        display: none;
+    }
+    .trust-1{
+        max-height: 554px;
+        background-color: #292929;
+        color: #FF7630;
+        text-align: center;
+        font-size: 45px;
+        font: roboto;
+        padding: 50px 0 50px 0;
+        font-weight: 700;
+    }
+
+    .address{
+        display: none;
+    }
+
+    .address-1{
+        height: 600px;
+    }
+    /* .topnav-1 a {
+        color: black;
+    }
+
+    .topnav-1 a:hover {
+        color: black;
+    } */
+
+    /* .topnav a {
+        display: none;
+    } */
 }
-/* Position the navbar container inside the image */
-.topContainer {
-    position: absolute;
-    padding-top: 20px;
-    width: 100%;
-  }
-  /* The navbar */
-  .topnav {
+
+@media only screen and (min-width: 501px) {
+
+    .about {
+        min-height: 853px;
+        background-color: #FF7630;
+        text-align: center;
+        color: #292929;
+        font-size: 45px;
+        font: roboto;
+    }
+    .about-1-1{
+        display: none;
+    }
+
+    .address {
+        min-height: 300px;
+        background-color: #E5E5E5;
+    }
+
+    .address-1{
+        display: none;
+    }
+
+    .bg-img {
+        background-image: url("bkg_1 1.png");
+        height: 1200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .body {
+        margin: 0px;
+    }
+
+    .boxImages {
+        background-color: #FFFFFF;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        box-shadow: 2px 2px 2px 2px #5e5955;
+    }
+
+    .button {
+        height: 70px;
+        width: 70px;
+    }
+
+    .centerElements {
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 700px;
+    }
+
+    .col-8 {
+        padding-top: 1.5%;
+    }
+
+    .contact {
+        min-height: 853px;
+        background-color: #E5E5E5;
+    }
+
+    .contact-1-1{
+        display: none;
+    }
+
+    .contactText {
+        padding-top: 135px;
+    }
+
+    .contactText1 {
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 29px;
+        color: #292929;
+    }
+
+    .contactText2 {
+        font-family: Roboto;
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 53px;
+        color: #FF7630;
+    }
+
+    .first-txt {
+        font-size: 60px;
+        font: roboto;
+    }
+
+    .imgNavbar {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+
+    .navbarTags {
+        display: inline-block;
+        right: 100px;
+        position: absolute;
+        top: 40px;
+    }
+
+    .pictureWithText1 {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .pictureWithText2 {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .products {
+        min-height: 500px;
+        background-color: #E5E5E5;
+        padding: 20px;
+    }
+
+    .products-1-1{
+        display: none;
+    }
+
+    .second-txt {
+        font-size: 100px;
+        font: roboto;
+    }
+
+    .separator img {
+        color: #292929;
+    }
+
+    .services {
+        min-height: 711px;
+        background-color: #383838;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 45px;
+        font: roboto;
+    }
+
+    .services-1-1{
+        display: none;
+    }
+
+    .textAbout {
+        padding-top: 50px;
+        color: #FFFFFF;
+        font-weight: 700;
+        size: 45px;
+    }
+
+    .textboxCSS {
+        width: 100%;
+    }
+
+    .textboxText {
+        font-size: 10px;
+        font-family: Roboto;
+        font-weight: 700;
+    }
+
+    /* Position the navbar container inside the image */
+    .topContainer {
+        position: absolute;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    /* The navbar */
+    .topnav {
     background-color: #000000;
     opacity: 69%;
     height: 68px;
     top: 24px
-  }  
-  /* Navbar links */
-  .topnav a {
-    color: #FFFFFF; 
-    padding: 14px 16px;
-    margin: 0px;
-    text-decoration: none;
-    font-size: 16px; 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  .services{
-    min-height: 711px;
-    background-color: #383838;
-    text-align: center;
-    color:#FFFFFF;
-    font-size: 45px;
-    font: roboto;
-  }
-  .products{
-    min-height: 500px;
-    background-color: #E5E5E5;
-    padding: 20px;
-  }
-  .about{
-    min-height: 853px;
-    background-color: #FF7630;
-    text-align: center;
-    color:#292929;
-    font-size: 45px;
-    font: roboto;
-  }
-  .separator img{
-    color: #292929;
-  }
-  .contact{
-    min-height: 853px;
-    background-color: #E5E5E5; 
-  }
-  .trust{
-    max-height: 254px;
-    background-color: #292929;
-    color: #FF7630;
-    text-align: center;
-    font-size: 65px;
-    font: roboto;
-    padding-right: 20%;
-    padding-left: 10%;
-    padding-top: 2%;
-    padding-bottom: 5%;
-    font-weight: 500;
-  }
-  .col-8{
-    padding-top: 1.5%;
-  }
-  .address{
-    min-height: 300px;
-    background-color: #E5E5E5;
-  }
-  body{
-    margin: 0px;
-  }
-.centerElements{
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 700px;
 }
-.first-txt{
-    font-size: 60px;
-    font: roboto;
-}
-.second-txt{
-    font-size: 100px;
-    font: roboto;
-}
-.button{
-    height: 70px;
-    width: 70px;
-}
-.textboxCSS{
-    width: 100%;
-}
-.textboxText{
-  font-size: 10px;
-  font-family: Roboto;
-  font-weight: 700;
-}
-.contactText{
-  padding-top: 135px;
-}
-.contactText1{
-  font-family: Roboto;
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 29px;
-  color: #292929;
-}
-.contactText2{
-  font-family: Roboto;
-  font-size: 45px;
-  font-weight: 900;
-  line-height: 53px;
-  color: #FF7630;
-}
-.boxImages{
-  background-color: #FFFFFF;
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  box-shadow: 2px 2px 2px 2px #5e5955;
-}
-.pictureWithText1{
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 23px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-.pictureWithText2{
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-.navbarTags{
-  display: inline-block;
-  right: 100px;
-  position: absolute;
-  top: 40px;
-}
-.imgNavbar{
-  position: absolute;
-  top: 10px;
-  left: 20px;
-}
-.textAbout{
-  padding-top: 50px;
-  color: #FFFFFF;
-  font-weight: 700;
-  size: 45px;
+
+    /* Navbar links */
+    .topnav a {
+        color: #FFFFFF;
+        padding: 14px 16px;
+        margin: 0px;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .trust {
+        max-height: 254px;
+        background-color: #292929;
+        color: #FF7630;
+        text-align: center;
+        font-size: 65px;
+        font: roboto;
+        padding-right: 20%;
+        padding-left: 10%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        font-weight: 500;
+    }
+    .trust-1{
+        display: none;
+    }
+    .topContainer-1{
+        display: none;
+    }
 }
